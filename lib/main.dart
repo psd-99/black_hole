@@ -14,7 +14,11 @@ class MyApp extends StatelessWidget {
       title: "space app",
       home: Scaffold(
         backgroundColor: Colors.black,
-        appBar: AppBar(),
+        appBar: AppBar(
+          backgroundColor: Colors.black,
+          shadowColor: Colors.yellow,
+          title: Text("BLACK HOLE"),
+        ),
       ),
     );
   }
