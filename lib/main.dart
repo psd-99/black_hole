@@ -22,6 +22,12 @@ class MyApp extends StatelessWidget {
             "BLACK HOLE",
             style: TextStyle(fontWeight: FontWeight.w900, fontSize: 30),
           ),
+          actions: [
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.menu),
+            ),
+          ],
         ),
       ),
     );
