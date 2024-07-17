@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 //main
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.black,
           shadowColor: Colors.yellow,
-          title: Text("BLACK HOLE"),
+          title: const Text(
+            "BLACK HOLE",
+            style: TextStyle(fontWeight: FontWeight.w900, fontSize: 30),
+          ),
         ),
       ),
     );
