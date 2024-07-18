@@ -63,16 +63,21 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(
                       color: Colors.white, fontWeight: FontWeight.w200),
                 ),
-
+                const SizedBox(
+                  height: 50,
+                ),
                 //button
-                Container(
-                  padding: EdgeInsets.all(15),
-                  color: const Color.fromARGB(255, 222, 11, 11),
-                  decoration:
-                      BoxDecoration(borderRadius: BorderRadius.circular(100)),
-                  child: Text(
-                    "SPACE DETAILS",
-                    style: TextStyle(color: Colors.white),
+                Center(
+                  child: Container(
+                    padding: const EdgeInsets.all(15),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(100),
+                      color: const Color.fromARGB(255, 222, 11, 11),
+                    ),
+                    child: const Text(
+                      "SPACE DETAILS",
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ),
                 )
               ],
