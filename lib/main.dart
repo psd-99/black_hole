@@ -29,6 +29,20 @@ class MyApp extends StatelessWidget {
             ),
           ],
         ),
+        body: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: const Column(
+            children: [
+              Text(
+                " SPACE DETAILS",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w500),
+              )
+            ],
+          ),
+        ),
       ),
     );
   }
