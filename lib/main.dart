@@ -56,12 +56,24 @@ class MyApp extends StatelessWidget {
                     scale: 2,
                   ),
                 ),
-                SizedBox(height: 50),
+                const SizedBox(height: 50),
                 const Text(
                   "Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum ",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white, fontWeight: FontWeight.w200),
+                ),
+
+                //button
+                Container(
+                  padding: EdgeInsets.all(15),
+                  color: const Color.fromARGB(255, 222, 11, 11),
+                  decoration:
+                      BoxDecoration(borderRadius: BorderRadius.circular(100)),
+                  child: Text(
+                    "SPACE DETAILS",
+                    style: TextStyle(color: Colors.white),
+                  ),
                 )
               ],
             ),
