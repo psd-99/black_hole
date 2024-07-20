@@ -179,39 +179,6 @@ class MyApp extends StatelessWidget {
                 const SizedBox(
                   height: 50,
                 ),
-
-                //footer
-                Container(
-                  height: 2,
-                  width: 2000,
-                  decoration: const BoxDecoration(color: Colors.white30),
-                ),
-
-                const SizedBox(
-                  height: 20,
-                ),
-
-                const Text(
-                  "BLACK HOLE",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w600),
-                ),
-
-                const SizedBox(
-                  height: 20,
-                ),
-
-                const Center(
-                  child: const Text(
-                    "Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed.",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 10,
-                        fontWeight: FontWeight.w100),
-                  ),
-                ),
               ],
             ),
           ),
