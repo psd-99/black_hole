@@ -1,16 +1,8 @@
-# black_hole
+Space App
+This is a simple Flutter application that showcases a space-themed UI. The application displays details about space with images and descriptive text. The main screen is designed with a black background to represent space, and various UI components are styled to enhance the theme.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+Custom AppBar: The app bar has a custom title "BLACK HOLE" with a menu icon.
+Images and Text: Displays space-related images with descriptive placeholder text.
+Buttons: Includes buttons for interacting with the app.
+Themed UI: Consistent color scheme and styling to match the space theme.
